@@ -56,7 +56,7 @@ function perfectNumbers(limit) {
         };
     }
     
-}
+} 
 
 perfectNumbers(1000);
 

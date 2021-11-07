@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-function addToCart(productName) {
-    console.log("Sepete eklendi : " +productName)
-}
-
-addToCart("Elma")
-
-
-let addToCart2 = ()=>{
-    console.log("Sepete eklendi")
-}
-
-addToCart2();
-
-
-let addToCart3 = function () {
-    console.log("Sepete eklendi")
-}
-
-addToCart3();
-=======
 function addToCart(quantity,productName="Elma") {
     console.log("Sepete eklendi : ürün : " 
     + productName + " adet : " + quantity)
@@ -122,5 +101,3 @@ let newProductName, newUnitPrice, newQuantity
 console.log(newProductName)
 console.log(newUnitPrice)
 console.log(newQuantity)
-
->>>>>>> 913ee0044458ba0401b6785ff179f907b3fb0c1e
