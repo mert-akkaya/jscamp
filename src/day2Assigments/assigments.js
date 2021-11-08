@@ -88,3 +88,4 @@ function isPrime(number) {
 }
 
 listPrime(1000);
+
