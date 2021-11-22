@@ -37,7 +37,7 @@ console.log(cart)
 let sayi = 10
 
 function sayiTopla(number) {
-    number += 1
+    console.log(number += 1)
 }
 sayiTopla(sayi)
 console.log(sayi)
