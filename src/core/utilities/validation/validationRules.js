@@ -1,7 +1,7 @@
 export default class ValidationRules{
     static run(...logics){
         for(const logic of logics){
-            if(!logic["success"]){
+            if(logic.success === false){
                 return logic;
             }
         }
